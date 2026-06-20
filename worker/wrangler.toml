@@ -1,0 +1,7 @@
+name = "proxyip-checker"
+main = "worker.js"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
+
+# Free + Paid plans both support cloudflare:sockets (TCP Sockets API).
+# No KV / D1 / environment variables required â€” this Worker is stateless.
